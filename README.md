@@ -8,7 +8,7 @@ If accepted,
 
 ## Data access
 
-Info
+Data are protected by privacy and GDPR regulations
 
 ### Try out the code
 
