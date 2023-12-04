@@ -17,7 +17,6 @@ import pandas as pd
 import pickle
 
 def load_audio(audio_path):
-    """Load and preprocess audio."""
     waveform, sample_rate = torchaudio.load(audio_path)
     resampled_audio = torchaudio.transforms.Resample(orig_freq=sample_rate, new_freq=16000)(waveform)
 
@@ -27,7 +26,6 @@ def load_audio(audio_path):
     return resampled_audio
 
 def extract_features(resampled_audio):
-    """Extract features using OpenSMILE."""
     feature_entry = {}
     feature_levels = [
         opensmile.FeatureLevel.LowLevelDescriptors,
@@ -51,7 +49,6 @@ def extract_features(resampled_audio):
     return feature_entry
 
 def predict_result(test_features, features_for_model, model_filename):
-    """Load selected features, scale, and make predictions."""
     # Load selected features and scale
     selected_feature_names_df = pd.read_csv(features_for_model)
     selected_feature_names = selected_feature_names_df['Feature Names'].tolist()
