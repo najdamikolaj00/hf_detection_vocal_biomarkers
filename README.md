@@ -1,6 +1,6 @@
 # Heart failure detection based on vocal biomarkers
 
-Description
+Our objective is to examine voice samples gathered from individuals affected with heart failure (HF) and leverage machine learning (ML) methodologies to investigate the relationship between variations in vocal attributes and shifts in the health condition of HF patients. 
 
 ## Research article
 
@@ -8,7 +8,7 @@ If accepted,
 
 ## Data access
 
-Data are protected by privacy and GDPR regulations
+Data are protected by privacy and GDPR regulations.
 
 ### Try out the code
 
