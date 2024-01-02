@@ -46,5 +46,5 @@ We extend our heartfelt gratitude to all who participated in our study, as your 
 
 ## Funding
 
-The study was funded by Miniatura 6 Grant, no 2022/06/X/ST6/01191, funded by the National Science Centre in Poland.
+The study was funded by Miniatura 6 Grant, no 2022/06/X/ST6/01191, funded by the National Science Centre in Poland, and by Statutory funds of the Medical University of Silesia in Poland (no. (PCN-1-005/N/0/K and PCN-1-139/N/2/K).
 
